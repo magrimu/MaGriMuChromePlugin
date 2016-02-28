@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Micropayment by MaGriMuc",
+  "description": "Zahlt 10 Cent per Click von Ihrem Guthaben an Betreiber der Webseite.",
+  "version": "1.0",
+  "options_page": "options.html",
+  
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "10 Cent bezahlen"
+  },
+  
+  "permissions": [
+    "storage",
+    "activeTab",
+    "https://*/*",
+    "http://*/",
+    "file:///*"
+	    ],
+
+  "content_scripts": [{
+	   "matches": ["http://*/*","https://*/*"],
+	   "js": ["jquery-1.11.3.min.js"]}]
+}
