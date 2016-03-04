@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
 
-  "name": "Micropayment by MaGriMuc",
-  "description": "Zahlt 10 Cent per Click von Ihrem Guthaben an Betreiber der Webseite.",
-  "version": "1.0",
+  "name": "Micropayment by MGM",
+  "description": "Zahlt 25 Cent per Click von Ihrem Guthaben an Betreiber der Webseite.",
+  "version": "0.1",
   "options_page": "options.html",
   
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title": "10 Cent bezahlen"
+    "default_title": "25 Cent bezahlen"
   },
   
   "permissions": [
@@ -22,5 +22,5 @@
 
   "content_scripts": [{
 	   "matches": ["http://*/*","https://*/*"],
-	   "js": ["jquery-1.11.3.min.js"]}]
+	   "js": ["jquery-1.12.1.min.js"]}]
 }
