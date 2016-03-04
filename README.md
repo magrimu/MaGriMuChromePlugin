@@ -13,7 +13,7 @@ MGM ermöglicht Minibeträge per Mausklick an Website Administratoren zu überwe
 Dafür müssen folgende Vorbereitungen erfüllt sein:
 <ul>
 	<li>Du brauchst Guthaben - erhältlich bei m.grillo.muc@gmail.com</li>
-	<li>Du musst das <a href=https://drive.google.com/open?id=0B0pW11EFbcpMcEJNUm9QQ0tGU1E>"MGM Chrome Plugin v0.1"</a> installieren.</li>
+	<li>Du musst das <a href=https://drive.google.com/file/d/0B0pW11EFbcpMN1c5UFVOeERqbzg/view?usp=sharing>"MGM Chrome Plugin v0.1"</a> installieren.</li>
 	<li>...es handelt sich um ein zip File, dass Du entpacken musst. Dann öffnest Du über "Google Chrome anpassen und einstellen" > "Weitere Tools" > "Erweiterungen" den "Entwicklermodus" (Checkbox). Die Option "Entpackte Erweiterung laden" ermöglicht es Dir, das entpackte Zip Archiv in Chrome einzubinden.</li>
 	<li>Dein Guthaben Konto wird über eine GUID identifiziert. Diese GUID musst Du im Plugin eintragen: <br></li>
 	<li>...dazu msst Du einen Rechtsklick auf das Plugin ausführen. Unter "Optionen" findest Du das Feld, wo die GUId eingetragen wird.</li>
